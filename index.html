@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="icon" href="Screenshot 2023-10-20 at 3.59.23 PM.png" />
+    <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+    <header class="header">
+        <h1>Calculator</h1>
+    </header>
+    <main>
+        <section class="grid">
+            <ul class="grid__items">
+                <li class="grid__item display"><div>
+                    <div class="content">
+                        <input class="display--output" placeholder="0"></input>
+                    </div>
+                </div></li>
+                <li class="grid__item clear"><button class="grid__item--button" data-value="C">C</button></li>
+                <li class="grid__item operator"><button class="grid__item--button" data-value="DEL">DEL</button></li>
+                <li class="grid__item operator"><button class="grid__item--button" data-value="%">%</button></li>
+                <li class="grid__item operator"><button class="grid__item--button" data-value="/">÷</button></li>
+                <li class="grid__item"><button class="grid__item--button" data-value="7">7</button></li>
+                <li class="grid__item"><button class="grid__item--button" data-value="8">8</button></li>
+                <li class="grid__item"><button class="grid__item--button" data-value="9">9</button></li>
+                <li class="grid__item operator"><button class="grid__item--button" data-value="*">x</button></li>
+                <li class="grid__item"><button class="grid__item--button" data-value="4">4</button></li>
+                <li class="grid__item"><button class="grid__item--button" data-value="5">5</button></li>
+                <li class="grid__item"><button class="grid__item--button" data-value="6">6</button></li>
+                <li class="grid__item operator"><button class="grid__item--button" data-value="-">-</button></li>
+                <li class="grid__item"><button class="grid__item--button" data-value="1">1</button></li>
+                <li class="grid__item"><button class="grid__item--button" data-value="2">2</button></li>
+                <li class="grid__item"><button class="grid__item--button" data-value="3">3</button></li>
+                <li class="grid__item operator"><button class="grid__item--button" data-value="+">+</button></li>
+                <li class="grid__item zero"><button class="grid__item--button" data-value="0">0</button></li>
+                <li class="grid__item"><button class="grid__item--button" data-value=".">.</button></li>
+                <li class="grid__item equal"><button class="grid__item--button" data-value="=">=</button></li>
+
+            </ul>
+        </section>
+    </main>
+    <script src="scripts.js"></script>
+</body>
+</html>
